@@ -56,7 +56,11 @@ The goal is to build a **prediction and early warning system** for earthquake ma
 ---
 
 ## 🚀 Running the Project  
+### 🔗 Option 1: Try Online by my webapp (Recommended)  
+You can directly use the deployed app here: 
 
+👉 [Natural Disaster Prediction & Early Warning System](https://naturaldisasterpredictionandearlywarningsystem-lakshay12.streamlit.app/)  
+### 💻 Option 2: Run Locally 
 ### 1️⃣ Clone the Repository  
 git clone https://github.com/LM1264/Natural_Disaster_Prediction_And_Early_Warning_System.git
 
