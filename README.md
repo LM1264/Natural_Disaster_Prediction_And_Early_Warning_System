@@ -1,7 +1,7 @@
 # 🌍 Natural Disaster Prediction & Early Warning System  
 
 A Machine Learning project to predict **earthquake magnitudes** using regression models (Linear Regression, Random Forest Regressor, and Gradient Boosting Regressor).  
-The project includes both an **exploratory Jupyter Notebook** for model training & evaluation and a **Streamlit web app** for deployment.  
+The project includes both an **exploratory Colab/Jupyter Notebook** for model training & evaluation and a **Streamlit web app** for deployment.  
 
 ---
 
