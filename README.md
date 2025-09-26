@@ -73,28 +73,20 @@ streamlit run app.py
 ## 📊 Model Evaluation Metrics
 
 For each model, the following metrics were calculated:
-
-MSE (Mean Squared Error)
-
-MAE (Mean Absolute Error)
-
-RMSE (Root Mean Squared Error)
-
-R² Score
-
-A comparison table & bar chart are displayed in the app.
-
+- MSE (Mean Squared Error)
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R² Score
+- A comparison table & bar chart are displayed in the app.
+- 
 ---
 
 ## 📈 Streamlit App Features
 
-Upload custom earthquake dataset (CSV).
-
-Select features and target column.
-
-Compare model performance.
-
-Get prediction results in real time.
+- Upload custom earthquake dataset (CSV).
+- Select features and target column.
+- Compare model performance.
+- Get prediction results in real time.
 
 ---
 
