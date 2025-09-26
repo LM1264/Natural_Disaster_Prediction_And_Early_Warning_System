@@ -1,8 +1,110 @@
-# Natural-Disaster-Prediction-Early-Warning-System
-This is an AICTE Internship
+# 🌍 Natural Disaster Prediction & Early Warning System  
 
-week 1 : basic code -31/08/2025
+A Machine Learning project to predict **earthquake magnitudes** using regression models (Linear Regression, Random Forest Regressor, and Gradient Boosting Regressor).  
+The project includes both an **exploratory Jupyter Notebook** for model training & evaluation and a **Streamlit web app** for deployment.  
 
-Week 2 :  Exploratory Data Analysis (EDA), data transformation, and feature selection -07/09/2025
+---
 
-Week 3 : Model Testing,Training,Fine Tuning & Deployment-14/09/2025
+## 📌 Project Overview  
+This project leverages earthquake data from **Kaggle** (with records since 1965 for magnitudes ≥ 5.5).  
+The goal is to build a **prediction and early warning system** for earthquake magnitudes.  
+
+- **Dataset Features:** Date, Time, Location, Depth, Magnitude, Source, etc.  
+- **Target:** Earthquake Magnitude.  
+- **ML Models:**  
+  - Linear Regression  
+  - Random Forest Regressor  
+  - Gradient Boosting Regressor  
+
+---
+
+## 🛠️ Tools & Technologies  
+- **Programming Language:** Python  
+- **Libraries:**  
+  - `pandas`, `numpy` → data preprocessing  
+  - `matplotlib`, `seaborn` → visualization  
+  - `scikit-learn` → ML models & metrics  
+  - `joblib` → model persistence  
+  - `streamlit` → web app deployment  
+
+---
+
+## 📂 Project Structure  
+
+├── PROJECT_Natural_Disaster__Prediction__&_Early__Warning_System.ipynb # Jupyter Notebook (training + evaluation)
+
+├── app.py # Streamlit App
+
+├── lr_model.pkl
+
+├── rf_model.pkl
+
+├── gb_model.pkl
+
+├── scaler.pkl
+
+├── label_encoders.pkl
+
+├── feature_columns.pkl
+
+├── results_df.pkl
+
+├── requirements.txt
+
+└── README.md
+
+---
+
+## 🚀 Running the Project  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/LM1264/Natural_Disaster_Prediction_And_Early_Warning_System.git
+cd Natural_Disaster_Prediction_And_Early_Warning_System
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
+### 3️⃣ Run the Jupyter Notebook
+jupyter notebook PROJECT_Natural_Disaster__Prediction__&_Early__Warning_System.ipynb
+### 4️⃣ Run the Streamlit App
+streamlit run app.py
+
+---
+
+## 📊 Model Evaluation Metrics
+
+For each model, the following metrics were calculated:
+
+MSE (Mean Squared Error)
+
+MAE (Mean Absolute Error)
+
+RMSE (Root Mean Squared Error)
+
+R² Score
+
+A comparison table & bar chart are displayed in the app.
+
+---
+
+## 📈 Streamlit App Features
+
+Upload custom earthquake dataset (CSV).
+
+Select features and target column.
+
+Compare model performance.
+
+Get prediction results in real time.
+
+---
+
+## 📜 Requirements
+
+- Example **requirements.txt :**
+- streamlit
+- pandas
+- numpy
+- scikit-learn
+- seaborn
+- matplotlib
+- joblib
