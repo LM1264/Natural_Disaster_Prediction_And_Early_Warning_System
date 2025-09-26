@@ -26,8 +26,8 @@ The goal is to build a **prediction and early warning system** for earthquake ma
   - `scikit-learn` → ML models & metrics  
   - `joblib` → model persistence  
   - `streamlit` → web app deployment
-  - `Dataset Source` → Kaggle (Earthquake dataset)
-  - `Environment` → Jupyter Notebook / Google Colab
+- **Dataset Source:** Kaggle (Earthquake dataset)
+- **Environment:** Jupyter Notebook / Google Colab
 
 ---
 
