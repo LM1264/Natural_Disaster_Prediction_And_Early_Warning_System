@@ -78,7 +78,7 @@ For each model, the following metrics were calculated:
 - RMSE (Root Mean Squared Error)
 - R² Score
 - A comparison table & bar chart are displayed in the app.
-- 
+ 
 ---
 
 ## 📈 Streamlit App Features
