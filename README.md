@@ -67,7 +67,7 @@ git clone https://github.com/LM1264/Natural_Disaster_Prediction_And_Early_Warnin
 cd Natural_Disaster_Prediction_And_Early_Warning_System
 ### 2️⃣ Install Dependencies
 pip install -r requirements.txt
-### 3️⃣ Run the Jupyter Notebook
+### 3️⃣ Run the Colab/Jupyter Notebook
 jupyter notebook PROJECT_Natural_Disaster__Prediction__&_Early__Warning_System.ipynb
 ### 4️⃣ Run the Streamlit App
 streamlit run app.py
