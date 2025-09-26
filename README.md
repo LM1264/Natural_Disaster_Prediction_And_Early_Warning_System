@@ -59,6 +59,7 @@ The goal is to build a **prediction and early warning system** for earthquake ma
 
 ### 1️⃣ Clone the Repository  
 git clone https://github.com/LM1264/Natural_Disaster_Prediction_And_Early_Warning_System.git
+
 cd Natural_Disaster_Prediction_And_Early_Warning_System
 ### 2️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -99,7 +100,7 @@ Get prediction results in real time.
 
 ## 📜 Requirements
 
-- Example **requirements.txt :**
+Example **requirements.txt :**
 - streamlit
 - pandas
 - numpy
