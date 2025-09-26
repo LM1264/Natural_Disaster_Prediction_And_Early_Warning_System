@@ -96,7 +96,7 @@ For each model, the following metrics were calculated:
 
 ## 📜 Requirements
 
-Example **requirements.txt :**
+Example [requirements.txt](requirements.txt) :
 - streamlit
 - pandas
 - numpy
